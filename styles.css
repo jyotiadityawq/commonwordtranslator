@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgb(100, 88, 180);
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+header {
+    background-color: #2961af;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.word-select {
+    background-color: #317a8e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #2961af;
+    color: aliceblue;
+}
+
+button {
+    background-color: #1b331c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #00e908;
+}
+
+.translations {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.language {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 2rem;
+    color: white;
+}
+.translations ul{
+    color: white;
+    font-size: 2rem;
+}
+#german-translation, #spanish-translation, #french-translation {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}

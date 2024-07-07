@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Translator</h1>
+    </header>
+    <main>
+        <section class="word-select">
+            <label for="english-word">Select a word:</label>
+            <select id="english-word">
+                <option value="">Select a word</option>
+                <option value="hello">Hello</option>
+                <option value="goodbye">Goodbye</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="please">Please</option>
+                <option value="thanks">Thanks</option>
+                <option value="good morning">Good morning</option>
+                <option value="good night">Good night</option>
+                <option value="sorry">Sorry</option>
+                <option value="excuse me">Excuse me</option>
+                <option value="how are you">How are you?</option>
+                <option value="I'm fine">I'm fine</option>
+                <option value="what is your name">What is your name?</option>
+                <option value="my name is">My name is</option>
+                <option value="nice to meet you">Nice to meet you</option>
+                <option value="good">Good</option>
+                <option value="bad">Bad</option>
+                <option value="see you later">See you later</option>
+                <option value="welcome">Welcome</option>
+                <option value="congratulations">Congratulations</option>
+                <option value="happy birthday">Happy Birthday</option>
+                <option value="happy new year">Happy New Year</option>
+                <option value="merry christmas">Merry Christmas</option>
+                <option value="good afternoon">Good afternoon</option>
+                <option value="take care">Take care</option>
+            </select>
+            <button id="translate-btn">Translate</button>
+        </section>
+        <section class="translations">
+            <h2>Translations:</h2>
+            <ul>
+                <li>
+                    <span class="language">German:</span>
+                    <span id="german-translation"></span>
+                </li>
+                <li>
+                    <span class="language">Spanish:</span>
+                    <span id="spanish-translation"></span>
+                </li>
+                <li>
+                    <span class="language">French:</span>
+                    <span id="french-translation"></span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
